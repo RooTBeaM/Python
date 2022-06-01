@@ -1,0 +1,76 @@
+
+################# install git #################
+(Just First Time in Computer)
+
+pip install git
+
+git --version
+git config --global user.email "you@example.com" <---- github
+git config --global user.name "Your Name"<---github
+git config --list <--- check email & user name
+
+################# upgrade git #################
+git update-git-for-windows
+
+################# git version #################
+git --version
+git status 
+git config --list
+git config --list --show-origin
+
+################# Connect Github #################
+(create Github Repository and add .gitignore file)
+
+git init
+git add . <-- add new files for first time
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zueyangzein/Python.git
+
+git pull --rebase origin main <--- have files in Repository need pull and change ${repo_name} to main
+
+git push -u origin main
+
+################# add/update modified file to Github #################
+git status 
+git add <file path>
+git commit -m "< your message>"
+git commit -m "<your message>" <file_path 1> <file_path2>
+git push <origin> <branch_name>
+
+----------------------------------------------------------
+*remark
+git show-ref
+
+git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+	   [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]
+	   [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+	   [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+	   [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+	   [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	   [(--trailer <token>[(=|:)<value>])…​] [-S[<keyid>]]
+	   [--] [<pathspec>…​]
+
+git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]] [--sparse]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
+	  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​]
+
+git branch (-m | -M) [<oldbranch>] <newbranch>
+
+git push [--all | --mirror | --tags] [--follow-tags] [--atomic] [-n | --dry-run] [--receive-pack=<git-receive-pack>]
+	   [--repo=<repository>] [-f | --force] [-d | --delete] [--prune] [-v | --verbose]
+	   [-u | --set-upstream] [-o <string> | --push-option=<string>]
+	   [--[no-]signed|--signed=(true|false|if-asked)]
+	   [--force-with-lease[=<refname>[:<expect>]] [--force-if-includes]]
+	   [--no-verify] [<repository> [<refspec>…​]]
+
+
+git push -u <remote> <branch name> command are described as follows:
+    -u: The -u flag creates a tracking reference for every branch that you successfully push onto the remote repository. The local branch you push is automatically linked with the remote branch. This allows you to use commands such as git pull without any arguments.
+    <remote>: The <remote> option specifies the name of the remote repository to which the changes need to be pushed. If you clone a repository, the name of the remote repository is saved under the name origin on your local system. Alternatively, you can provide the URL of the repository as well.
+    <branch name>: The <branch name> option specifies the remote repository branch to which the changes need to be pushed.
+
+git remote remove origin
+

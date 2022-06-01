@@ -1,0 +1,20 @@
+################# SET Env #################
+
+mkdir *name folder  <--- create Project folder
+cd *name folder
+python -m venv env  <---- * env just a name
+env\Scripts\activate <--- env
+
+deactivate <--- exit env
+
+################# upgrade pip #################
+pip install --upgrade pip
+
+################# install libraries #################
+pip install to-requirements.txt
+
+################# library list #################
+pip freeze
+pip list
+
+################# etc #################
