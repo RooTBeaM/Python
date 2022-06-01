@@ -18,3 +18,6 @@ pip freeze
 pip list
 
 ################# etc #################
+
+
+fasdfasdfasd
