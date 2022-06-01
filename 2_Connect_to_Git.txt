@@ -8,13 +8,13 @@ git --version
 git config --global user.email "you@example.com" <---- github
 git config --global user.name "Your Name"<---github
 git config --list <--- check email & user name
+git config --edit --global
 
 ################# upgrade git #################
 git update-git-for-windows
 
 ################# git version #################
 git --version
-git status 
 git config --list
 git config --list --show-origin
 
@@ -25,7 +25,9 @@ git init
 git add . <-- add new files for first time
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/zueyangzein/Python.git
+
+git remote remove origin
+git remote add origin https://github.com/RooTBeaM/Python.git
 
 git pull --rebase origin main <--- have files in Repository need pull and change ${repo_name} to main
 
@@ -74,3 +76,5 @@ git push -u <remote> <branch name> command are described as follows:
 
 git remote remove origin
 
+
+rm -rf .git <<< remo git
