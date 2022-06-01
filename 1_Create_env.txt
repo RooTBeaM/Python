@@ -18,3 +18,4 @@ pip freeze
 pip list
 
 ################# etc #################
+test new pc
