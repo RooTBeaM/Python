@@ -40,6 +40,14 @@ git commit -m "< your message>"
 git commit -m "<your message>" <file_path 1> <file_path2>
 git push origin main
 
+################# load new project from Github #################
+
+git init
+git branch -M main
+git remote add origin https://github.com/RooTBeaM/Python.git
+git pull origin main
+git status
+
 ----------------------------------------------------------
 *remark
 git show-ref
