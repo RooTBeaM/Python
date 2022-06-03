@@ -5,8 +5,8 @@
 pip install git
 
 git --version
-git config --global user.email "you@example.com" <---- github
-git config --global user.name "Your Name"<---github
+git config --global user.email "panya.sirikul@gmail.com" <---- github
+git config --global user.name "RooTBeaM"---github
 git config --list <--- check email & user name
 git config --edit --global
 
@@ -38,7 +38,7 @@ git status
 git add <file path>
 git commit -m "< your message>"
 git commit -m "<your message>" <file_path 1> <file_path2>
-git push <origin> <branch_name>
+git push origin main
 
 ----------------------------------------------------------
 *remark
