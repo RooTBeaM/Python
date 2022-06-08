@@ -1,0 +1,5 @@
+Player  1 score =  50
+Player  2 score =  20
+Player  3 score =  30
+Player  4 score =  50
+Player  5 score =  44
