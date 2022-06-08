@@ -1,3 +1,4 @@
+#### Plase refer to https://dev.to/doabledanny/git-cheat-sheet-50-commands-free-pdf-and-poster-4gcn
 
 ################# install git #################
 (Just First Time in Computer)
