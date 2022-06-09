@@ -1,4 +1,3 @@
-from pip import main
 class test_a:
     def __init__(self, val1, val2:int, val3):
         self.a = val1
