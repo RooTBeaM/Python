@@ -9,8 +9,3 @@ class test_a:
 
     def print_val(d,f,e):
         print(d,f,e)
-
-if __name__ == "__main__":
-    aa = test_a(1,3,5)
-    test_a.func1(5,7)
-    test_a.print_val(aa.a, aa.b, aa.c)
