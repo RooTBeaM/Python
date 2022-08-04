@@ -7,7 +7,7 @@ pip install git
 
 git --version
 git config --global user.email "panya.sirikul@gmail.com" <---- github
-git config --global user.name "RooTBeaM"---github
+git config --global user.name "RooTBeaM" <---github
 git config --list <--- check email & user name
 git config --edit --global
 
